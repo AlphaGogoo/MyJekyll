@@ -1,0 +1,46 @@
+I"�	<h1 id="web应用软件开发实训---第二次作业---开发一个静态网站">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</h1>
+
+<p>公网地址：<a href="https://github.com/AlphaGogoo/AlphaGogoo.github.io">https://github.com/AlphaGogoo/AlphaGogoo.github.io</a></p>
+
+<h2 id="一网站目录结构">一、网站目录结构</h2>
+<p><a href="https://imgtu.com/i/cbdK6f"><img src="https://z3.ax1x.com/2021/04/21/cbdK6f.png" alt="cbdK6f.png" /></a></p>
+
+<h2 id="二网站截图">二、网站截图</h2>
+
+<ul>
+  <li>首页</li>
+  <li>Blog列表页</li>
+  <li>两篇Post</li>
+  <li>Staff列表页</li>
+  <li>一个Staff列表页</li>
+  <li>一个作者简介页面</li>
+  <li>一个About页面</li>
+</ul>
+
+<h2 id="三实验过程">三、实验过程</h2>
+<ol>
+  <li>在WSL上安装Jekyll</li>
+  <li>在windows10上安装VSCode以及Remote插件，通过Remote插件连接WSL。</li>
+  <li>在VSCode中，按照Jekyll官方文档的“Step by Step Tutorial”的内容，完成1-9步。</li>
+  <li>通过“Jekyll serve”运行调试网站，并将Markdown练习内容依次以帖子的形式发布到网站上。</li>
+  <li>在WSL上安装nginx。</li>
+  <li>通过”jekyll build”编译网站，将编译得到的”_site”目录部署到nginx上，检查内容是否正确。</li>
+  <li>将网站源代码push到Github.com网站上，并通过Github.io网站检查Jekyll代码是否被正确编译。</li>
+</ol>
+
+<h2 id="四总结">四、总结</h2>
+<p>在本次实验中，遇到最大的问题是在写Blog时，无法渲染出公式、表格、代码等markdown语法。</p>
+
+<p>经过在StackOverflow上查找信息发现：</p>
+
+<ul>
+  <li>对于无法渲染公式
+这是因为在blog中没有引入mathjax包，只需要在需要渲染公式的文件引入mathjax包即可。</li>
+  <li>对于无法渲染表格
+这是因为在syles.scss文件中没有设置表格的渲染样式，于是在styles.scss文件中添加好样式之后即可</li>
+  <li>对于无法渲染代码
+这是我遇到的最大的问题，在_config文件中添加 markdown: kramdown 之后仍然无法正常渲染。随后通过了解，jekyll中渲染代码需要用到 pygments。于是直接下载pygment之后，随后生成pygments.css文件，将其引入到default.html中。最终解决该问题。</li>
+</ul>
+
+<p>通过本次实验，对jekyll以及静态网站有了更深的理解。同时也锻炼了自己查错的能力，对于英文文档及博客也不再望而却步。</p>
+:ET
