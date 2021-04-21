@@ -1,21 +1,61 @@
-I"�	<h1 id="web应用软件开发实训---第二次作业---开发一个静态网站">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</h1>
+I"L<h1 id="web应用软件开发实训---第二次作业---开发一个静态网站">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</h1>
 
-<p>公网地址：<a href="https://github.com/AlphaGogoo/AlphaGogoo.github.io">https://github.com/AlphaGogoo/AlphaGogoo.github.io</a></p>
+<p>网站公网地址：<a href="https://www.bwq2001.website/">https://www.bwq2001.website/</a></p>
+
+<p>仓库地址：<a href="https://github.com/AlphaGogoo/AlphaGogoo.github.io">https://github.com/AlphaGogoo/AlphaGogoo.github.io</a></p>
 
 <h2 id="一网站目录结构">一、网站目录结构</h2>
-<p><a href="https://imgtu.com/i/cbdK6f"><img src="https://z3.ax1x.com/2021/04/21/cbdK6f.png" alt="cbdK6f.png" /></a></p>
+
+<p><a href="https://imgtu.com/i/cbdK6f"><img src="https://z3.ax1x.com/2021/04/21/cbdK6f.md.png" alt="cbdK6f.md.png" /></a></p>
 
 <h2 id="二网站截图">二、网站截图</h2>
 
 <ul>
   <li>首页</li>
+</ul>
+
+<p><a href="https://imgtu.com/i/cqa2bF"><img src="https://z3.ax1x.com/2021/04/21/cqa2bF.md.png" alt="cqa2bF.md.png" /></a></p>
+
+<ul>
   <li>Blog列表页</li>
-  <li>两篇Post</li>
-  <li>Staff列表页</li>
-  <li>一个Staff列表页</li>
+</ul>
+
+<p><a href="https://imgtu.com/i/cqacuT"><img src="https://z3.ax1x.com/2021/04/21/cqacuT.md.png" alt="cqacuT.md.png" /></a></p>
+
+<ul>
+  <li>
+    <p>两篇Post</p>
+
+    <ul>
+      <li>实验报告</li>
+    </ul>
+
+    <p><a href="https://imgtu.com/i/cqaWE4"><img src="https://z3.ax1x.com/2021/04/21/cqaWE4.md.png" alt="cqaWE4.md.png" /></a></p>
+
+    <ul>
+      <li>markdown练习</li>
+    </ul>
+
+    <p><a href="https://imgtu.com/i/cqafUJ"><img src="https://z3.ax1x.com/2021/04/21/cqafUJ.md.png" alt="cqafUJ.md.png" /></a></p>
+  </li>
+  <li>
+    <p>Staff列表页</p>
+  </li>
+</ul>
+
+<p><a href="https://imgtu.com/i/cqayvV"><img src="https://z3.ax1x.com/2021/04/21/cqayvV.md.png" alt="cqayvV.md.png" /></a></p>
+
+<ul>
   <li>一个作者简介页面</li>
+</ul>
+
+<p><a href="https://imgtu.com/i/cqar3q"><img src="https://z3.ax1x.com/2021/04/21/cqar3q.md.png" alt="cqar3q.md.png" /></a></p>
+
+<ul>
   <li>一个About页面</li>
 </ul>
+
+<p><a href="https://imgtu.com/i/cqasg0"><img src="https://z3.ax1x.com/2021/04/21/cqasg0.md.png" alt="cqasg0.md.png" /></a></p>
 
 <h2 id="三实验过程">三、实验过程</h2>
 <ol>
