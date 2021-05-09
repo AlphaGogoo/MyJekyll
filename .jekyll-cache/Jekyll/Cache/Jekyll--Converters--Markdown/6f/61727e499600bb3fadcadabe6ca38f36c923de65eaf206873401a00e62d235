@@ -1,4 +1,4 @@
-I"L<h1 id="web应用软件开发实训---第二次作业---开发一个静态网站">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</h1>
+I"Y<h1 id="web应用软件开发实训---第二次作业---开发一个静态网站">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</h1>
 
 <p>网站公网地址：<a href="https://www.bwq2001.website/">https://www.bwq2001.website/</a></p>
 
@@ -64,8 +64,11 @@
   <li>在VSCode中，按照Jekyll官方文档的”Step by Step Tutorial”的内容，完成1-9步。</li>
   <li>通过”Jekyll serve”运行调试网站，并将Markdown练习内容依次以帖子的形式发布到网站上。</li>
   <li>在WSL上安装nginx。</li>
-  <li>通过”jekyll build”编译网站，将编译得到的”_site”目录部署到nginx上，检查内容是否正确。</li>
-  <li>将网站源代码push到Github.com网站上，并通过Github.io网站检查Jekyll代码是否被正确编译。</li>
+  <li>通过”jekyll build”编译网站，将编译得到的”_site”目录部署到nginx上，
+执行sudo nginx，打开127.0.0.1查看编译结果：
+<a href="https://imgtu.com/i/cXdhE8"><img src="https://z3.ax1x.com/2021/04/23/cXdhE8.md.png" alt="cXdhE8.md.png" /></a></li>
+  <li>将网站源代码push到Github.com网站上，并通过Github.io网站检查Jekyll代码是否被正确编译：
+<a href="https://imgtu.com/i/cXwwMn"><img src="https://z3.ax1x.com/2021/04/23/cXwwMn.md.png" alt="cXwwMn.md.png" /></a></li>
 </ol>
 
 <h2 id="四总结">四、总结</h2>
