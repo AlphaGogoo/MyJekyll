@@ -1,32 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Git使用</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/pygments.css">
-  </head>
-  <body>
-    <nav>
-    
-      <a href="/" >Home</a>
-    
-      <a href="/about.html" >About</a>
-    
-      <a href="/blog.html" >Blog</a>
-    
-      <a href="/staff.html" >Staff</a>
-    
-  </nav>
-    <h1>Git使用</h1>
-
-<p>
-  07 May 2021
-  
-  
-</p>
-
-<h1 id="web应用软件开发实训---第3次作业---git-使用">WEB应用软件开发实训 - 第3次作业 - Git 使用</h1>
+I"S<h1 id="web应用软件开发实训---第3次作业---git-使用">WEB应用软件开发实训 - 第3次作业 - Git 使用</h1>
 
 <blockquote>
   <p>learngit 项目网址为：<a href="https://github.com/AlphaGogoo/learngit">https://github.com/AlphaGogoo/learngit</a></p>
@@ -147,6 +119,4 @@
 <h2 id="总结">总结</h2>
 
 <p>上学期参加小程序大赛时曾经学过git，但只会一些简单的add、commit、push这几个，没想到过Git还有这么多的功能，通过本次学习，对Git的功能有了更全面的了解，掌握了更多的Git操作，在未来的开发中，可以利用Git控制版本，提升代码安全性。</p>
-
-  </body>
-</html>
+:ET
